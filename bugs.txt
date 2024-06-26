@@ -1,0 +1,79 @@
+In some occassions, the playzone refuses to accept any more cards.
+Must be in relation to the animations. - FIXED - This was not a bug. Cards won't get played if they cost too much or if there isn't enough  time to play them. I was confusing myself!
+
+
+-- DESIGN BUGS:
+The price of hotels should be reconciled somehow. I think we went with some sort of conversion rate, where
+one money is actually equal to one hundred dollars in real life or something along those lines.
+
+ Should every card have an issue, or should every card have a RISK factor that determines if they get an issue
+ based on probability?
+
+ Discussion on minigames remains - what are we doing for them? what should determine when they happen?
+
+ Banquet minigame is much more fleshed out now.
+
+ I need to figure out how to reconcile the hotel cards into something that makes sense.
+
+----
+
+Add hotel staffing options
+
+Hotels technically are something you can pay for now; however, I'd like to adjust the numbers so they
+are better conveyed. There also needs to be default options if you can't get a hotel in time.
+
+Furthermore, there may be a need to decide at the start whether you are doing a hotel deal or not.
+
+---
+
+Need to prevent the banquet game from showing up every turn if you fail it. See "NOTE7"
+
+Figure out how room deals factor in with attendance.
+
+Check Amenities. Figure out how the rate affects the final calculation.
+
+---
+
+More progress made on logistics system - still needs much more work.
+Lynchpin of the game's development.
+
+---
+Current plan:
+Start -> Budgeting + logistics
+Middle -> Entertainment + logistics
+End -> Entertainment and Marketing
+
+Throughout it all you experience wildcards
+
+Cards: Use symbols for money and approval or state it outright using numbers?
+
+ADD ENDING DIALOGUE - then technically the game will be playable end-to-end
+
+---
+
+Hotel Questions:
+Stick with Suite idea or move to a more simplified (if you get > N amount of rooms, you get a discount) plan?
+If we're sticking with Suites, how does that work programatically? 
+
+Refine banquet minigame so you always get a good selection of meals to choose from, and possibly
+add an approval-altering incentive to it! (Half-fixed. Missing approval incentive)
+
+---
+(FIXED) Consider adding a list section for the banquet minigame options - just so they aren't spread haphazardly.
+
+---
+Reflect the need for a union in the Logistics LUI
+Perhaps we should make amenities not required.
+
+---
+Add more appropriate random names for things like hotels, bands, meals,  etc
+
+---
+Idea: Booking entertainment early might increase attendance or approval because Popular Band X can be marketed
+Fundraising cards may have floor space requirement - move it away from entertainment
+Fundraising cards more often have floor space, entertainment less.
+
+---
+If you fail to get a hotel, then it defaults to the venue hotel, which has mid-tier properties or some kind of detriment. NOT IMPLEMENTED
+Figure out how many rooms the player gets. 
+Should the room deals have "suites" that the player needs to meet, or should it be respective to the main hotel's room count?
